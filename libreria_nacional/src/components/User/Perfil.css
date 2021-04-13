@@ -96,7 +96,7 @@ html, body {
   color: #325C46;
 }
 
-.cardP .additional .coords span + span {
+.cardP .general .coords span + span {
   float: right;
 }
 

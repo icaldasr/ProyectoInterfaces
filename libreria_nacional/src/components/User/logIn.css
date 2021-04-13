@@ -6,8 +6,8 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
-.main-n{
-    margin-top: 0%;
+.main-nn{
+    margin-top: 25%;
     margin-left: 15%;
     width: 60%;
     align-content: center;
@@ -84,10 +84,17 @@ body {
     font-weight: 300;
 }
 
-.btn-black{
+.btn-btn-black{
     background-color: #ff675c !important;
+    border-radius: 6px;
+    padding: 7px 20px;
     align-content: center;
     color: #fff;
+}
+
+.btn-btn-black:hover{
+    color: black;
+    background-color: #ff675cce;
 }
 
 .form-group{

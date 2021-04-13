@@ -5,15 +5,18 @@
 
 .text-center{
     margin: 1em 0;
-    
 }
 
-.text-center button{
+.text-center .boton{
     background-color: #ff675c;
     width: 30%;
+    height: 120%;
+    color: white;
+    border-radius: 6px ;
+    padding: 10px 1px;
 }
 
-.text-center button:hover{
+.text-center .boton:hover{
     background-color: #ff7961;
 }
     

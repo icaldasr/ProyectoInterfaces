@@ -3,6 +3,7 @@ import React, { Component} from 'react';
 //import styles from './App.module.css'
 import { Glyphicon } from 'react-bootstrap';
 import Styles from '../components/Ayuda.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class Ayuda extends Component {
     render() {
@@ -24,10 +25,11 @@ class Ayuda extends Component {
                     <div className="collapse navbar-collapse" id="basicExampleNav11">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item pl-2 mb-2 mb-md-0">
-                                <a href="#!" type="button"
-                                className="btn btn-outline-danger btn-md btn-rounded btn-navbar waves-effect waves-light">
-                                    <img src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-452-1163339.png" className="rounded" alt="Carrito" width="25" height="25"/>
-                                </a>
+                                <Link to='./Compras'>
+                                    <button type="submit"className="btn btn-outline-danger btn-md btn-rounded btn-navbar waves-effect waves-light">
+                                        <img src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-452-1163339.png" className="rounded" alt="Carrito" width="25" height="25"/>
+                                    </button>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -39,22 +41,22 @@ class Ayuda extends Component {
             </div>
 
             <div className="text-center">
-                    <button type="button" variant="primary" className="btn btn-secondary btn-lg">
+                    <button type="button" variant="primary" className="boton">
                         <span aria-hidden="true"></span> Preguntas frecuentes
                     </button>
                 </div>
                 <div className="text-center">
-                    <button type="button" variant="primary" className="btn btn-secondary btn-lg">
+                    <button type="button" variant="primary" className="boton">
                         <span aria-hidden="true"></span> Preguntas sobre pago
                     </button>
                     </div>
                 <div className="text-center">
-                    <button type="button" variant="primary" className="btn btn-secondary btn-lg">
+                    <button type="button" variant="primary" className="boton">
                         <span aria-hidden="true"></span> Preguntas sobre envío
                     </button>
                     </div>
                 <div className="text-center">
-                    <button type="button" variant="primary" className="btn btn-secondary btn-lg">
+                    <button type="button" variant="primary" className="boton">
                         <span aria-hidden="true"></span> Contactenos
                     </button>                    
                 </div>

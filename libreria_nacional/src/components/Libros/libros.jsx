@@ -12,25 +12,28 @@ class libros extends Component {
         <>
 
         <div>
-            <nav className="navbar navbar-expand-md navbar-light">
+            <nav className="navbar navbar-expand-md navbar-light" aria-label="breadcrumb">
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav11"
                     aria-controls="basicExampleNav11" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <ol className="breadcrumb">
-                    <li className="breadcrumb-item">Inicio</li>
-                    <li className="breadcrumb-item active" aria-current="page">Libros</li>
-                </ol>
+                    <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Libros</li>
+                    </ol>
+                    </nav>
 
                 <div className="collapse navbar-collapse" id="basicExampleNav11">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item pl-2 mb-2 mb-md-0">
-                            <a href="#!" type="button"
-                            className="btn btn-outline-danger btn-md btn-rounded btn-navbar waves-effect waves-light">
-                                <img src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-452-1163339.png" className="rounded" alt="Carrito" width="25" height="25"/>
-                            </a>
+                            <Link to ="/Compras">
+                                <button type="submit" className="btn btn-outline-danger btn-md btn-rounded btn-navbar waves-effect waves-light"> 
+                                    <img src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-452-1163339.png" className="rounded" alt="Carrito" width="25" height="25"/> 
+                                </button>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -54,7 +57,7 @@ class libros extends Component {
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="" alt="" class="card-img-top" />
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51rTggB5E2L.jpg" alt="" class="card-img-top" />
                             <div class="card-body">
                                 <h5 class="card-title">María (Jorge Isaacs)</h5>
                                     <p class="card-text">Novela que narra en primera persona el amor de Efraín por su prima María, joven de quince años, enferma de un mal incurable.</p>
@@ -65,7 +68,7 @@ class libros extends Component {
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="" alt="" class="card-img-top" />
+                        <img src="http://www.hectorabad.com/wp-content/uploads/2012/09/el-olvido-que-seremos-ebook-.jpg" alt="" class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">El olvido que seremos (Hector Abad Faciolince)</h5>
                             <p class="card-text">El olvido que seremos es la reconstrucción amorosa y paciente de un personaje; está lleno de sonrisas y canta el placer de vivir, pero muestra también la tristeza y la rabia que provoca la muerte de un ser excepcional.</p>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import '../components/logIn.css';
+import './logIn.css';
 
 class logIn extends Component {
   render() 
@@ -23,7 +23,7 @@ class logIn extends Component {
                       <input type="password" className="form-control" placeholder="Contraseña"/>
                       <Link to='/recuperar' className="navbar-brand mx-auto">¿Olvidaste tu contraseña? </Link>
                     </div>
-                    <Link to='/Perfil'><button type="submit" className="btn btn-black">Ingresar</button></Link>
+                    <Link to='/Perfil'><button type="submit" className="btn-btn-black">Ingresar</button></Link>
                 </form>
               </div>
           </div>

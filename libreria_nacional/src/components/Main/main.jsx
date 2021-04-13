@@ -5,18 +5,36 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import  Button  from 'react-bootstrap/Button'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
+
 class Main extends Component 
 {
     render(){
     return(
         <>
-        <div>
-            <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">Inicio</li>
-            </ol>
-            </nav>
-        </div>
+
+            <div>
+                <nav className="navbar navbar-expand-md navbar-light">
+
+                    <nav aria-label="breadcrumb">
+                    <ol className="breadcrumb">
+                        <li className="breadcrumb-item active" aria-current="page">Inicio</li>
+                    </ol>
+                    </nav>
+
+                    
+
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav11"
+                        aria-controls="basicExampleNav11" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+
+
+
+                </nav>
+
+
+
+            </div>
         <div>
             <div class="container">
                 <div class="text-center">
@@ -32,7 +50,7 @@ class Main extends Component
                                     <p class="card-text">
                                         La libreria nacional abre un espacio para que lectores de todas las edades compartan y discutan sobre diferentes categorias de libros cada semana. Inscribase para hacer parte de nuestra comunidad.
                                     </p>
-                                    <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                                    <p class="card-text"><small class="text-muted"><i class="fas fa-calendar-alt"></i> Abril 09, 2021</small></p>
                                 </div>
                             </a>
                         </div>
@@ -42,7 +60,7 @@ class Main extends Component
                             <div class="card-body">
                                 <h5 class="card-title">¡Top 10 libros de horror que no te puedes perder!</h5>
                                 <p class="card-text">Te presentamos 10 libros clásicos y modernos que haran que te cueste dormir esta noche. Entra para conocer nuestras recomendaciones.</p>
-                                <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                                <p class="card-text"><small class="text-muted"><i class="fas fa-calendar-alt"></i> Abril 08, 2021</small></p>
                             </div>
                             </a>
                         </div>
@@ -52,7 +70,7 @@ class Main extends Component
                             <div class="card-body">
                                 <h5 class="card-title">Nuevos libros: Abril</h5>
                                 <p class="card-text">Estos son los últimos libros que agregamos a nuestro catálogo. No te lo pierdas.</p>
-                                <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                                <p class="card-text"><small class="text-muted"><i class="fas fa-calendar-alt"></i> Abril 09, 2021</small></p>
                             </div>
                             </a>
                         </div>
@@ -62,7 +80,7 @@ class Main extends Component
                                 <div class="card-body">
                                     <h5 class="card-title">Descuentos día de los inocentes</h5>
                                     <p class="card-text">Disfruta un 40% de descuento en libros para niños y en libros de poesía y comedia.</p>
-                                    <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                                    <p class="card-text"><small class="text-muted"><i class="fas fa-calendar-alt"></i>Abril 07, 2021</small></p>
                                 </div>
                             </a>
                         </div>
@@ -72,17 +90,17 @@ class Main extends Component
                             <div class="card-body">
                             <h5 class="card-title">Ready player two: ahora lo puedes conseguir en la librería nacional.</h5>
                             <p class="card-text">LLego la última obra de Ernest Cline, la segunda parte de la aclamada historia de ready player one. Haz click para ver más detalles.</p>
-                            <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                            <p class="card-text"><small class="text-muted"><i class="fas fa-calendar-alt"></i>Abril 07, 2021</small></p>
                             </div>
                             </a>
                         </div>
                         <div class="card">
                             <a href="#">
-                            <img class="card-img-top" src="" alt="Card image cap"/>
+                            <img class="card-img-top" src="https://www.escribir.me/wp-content/uploads/2015/08/libros-book-depository-3.jpg" alt="Card image cap"/>
                             <div class="card-body">
                                 <h5 class="card-title">LLuvia de libros con envios gratis. Solo valido para el mes de abril.</h5>
                                 <p class="card-text">No dejes que la pandemia te quite las ganas de leer. Solo por este mes has todos los pedidos que quieras sin cobro adiconal.</p>
-                                <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                                <p class="card-text"><small class="text-muted"><i class="fas fa-calendar-alt"></i>Abril 06, 2021</small></p>
                             </div>
                             </a>
                         </div>

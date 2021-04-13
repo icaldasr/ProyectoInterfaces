@@ -1,6 +1,6 @@
 import React, { Component } from 'react'; 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../components/logIn.css';
+import './logIn.css';
 
 class Recuperar extends Component {
   render() 

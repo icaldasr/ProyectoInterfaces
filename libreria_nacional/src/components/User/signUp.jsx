@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../components/signUp.css';
+import './signUp.css';
 
 class signUp extends Component {
   render() 
@@ -39,7 +39,7 @@ class signUp extends Component {
                     <div className="form-group">
                       <input type="password" className="form-control" placeholder="Contraseña"/>
                     </div>
-                    <button type="submit" className="btn btn-black">Registrarse</button>
+                    <button type="submit" className="btn-btn-black">Registrarse</button>
                 </form>
               </div>
           </div>
