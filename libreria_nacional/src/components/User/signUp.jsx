@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './signUp.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class signUp extends Component {
   render() 
@@ -10,6 +11,9 @@ class signUp extends Component {
     
         </div>
         <div className="main">
+          <div className="back-Home">
+            <Link to='/'><h6>Volver al inicio</h6></Link>
+          </div>
           <div className="main-n">
               <div className="login-form">
               <h2>¡Registrate!</h2>

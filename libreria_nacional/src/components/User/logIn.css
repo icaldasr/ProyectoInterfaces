@@ -6,8 +6,13 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+.main .back-Home{
+    padding: 10px;
+    margin-left: -125%;
+}
+
 .main-nn{
-    margin-top: 25%;
+    margin-top: 18%;
     margin-left: 15%;
     width: 60%;
     align-content: center;

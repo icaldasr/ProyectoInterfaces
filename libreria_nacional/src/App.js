@@ -14,6 +14,7 @@ import Recuperar from './components/User/Recuperar';
 import User from './components/User/Perfil';
 import Compras from './components/Compras/compras';
 //import Sidebar from './components/Sidebar/sidebar'
+import UserEdit from './components/User/editPerfil';
 
 class App extends Component 
 {
@@ -33,6 +34,7 @@ class App extends Component
           <Route exact path='/recuperar' component = { Recuperar } />
           <Route exact path='/Perfil' component = { User } />
           <Route exact path='/Compras' component = { Compras }/>
+          <Route exact path='/editPerfil' component = { UserEdit }/>
         </Switch>
       </div>
 

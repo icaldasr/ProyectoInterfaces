@@ -4,6 +4,14 @@
     margin-left: 100px;
 }
 
+.breadcrumb-item{
+    color: black;
+}
+
+.botton{
+    outline: none;
+}
+
 .img {
     display: block;
     max-width: 100%;

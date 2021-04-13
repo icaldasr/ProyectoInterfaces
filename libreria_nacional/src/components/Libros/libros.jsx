@@ -21,7 +21,7 @@ class libros extends Component {
 
                     <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                        <li class="breadcrumb-item">Inicio</li>
                         <li class="breadcrumb-item active" aria-current="page">Libros</li>
                     </ol>
                     </nav>
@@ -30,8 +30,8 @@ class libros extends Component {
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item pl-2 mb-2 mb-md-0">
                             <Link to ="/Compras">
-                                <button type="submit" className="btn btn-outline-danger btn-md btn-rounded btn-navbar waves-effect waves-light"> 
-                                    <img src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-452-1163339.png" className="rounded" alt="Carrito" width="25" height="25"/> 
+                                <button type="submit" className="botonn" > 
+                                    <img src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-452-1163339.png" alt="Carrito" width="25" height="25"/> 
                                 </button>
                             </Link>
                         </li>

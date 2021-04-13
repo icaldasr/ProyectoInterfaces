@@ -12,7 +12,11 @@ class logIn extends Component {
     
         </div>
         <div className="main">
+            <div className="back-Home">
+            <Link to='/'><h6>Volver al inicio</h6></Link>
+            </div>                    
           <div className="main-nn">
+            
               <div className="login-form">
               <h2>¡Inicia sesión!</h2>
                 <form>

@@ -4,162 +4,148 @@ html, body {
     font-family: Abel, Arial, Verdana, sans-serif;
 }
 
-.center {
-  position: absolute;
-  top: 30%;
-  left: 35%;
- 
+body {
+  background-color: #f9f9fa
 }
 
-.cardP {
-  width: 450px;
-  height: 250px;
-  background-color: #fff;
-  background: linear-gradient(#f8f8f8, #fff);
-  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
-  border-radius: 6px;
-  overflow: hidden;
-  position: relative;
-  margin: 1.5rem;
+.home{
+  align-content: center;
+  margin-left: 10%;
+  padding: 5%;
 }
 
-.cardP h1 {
-  text-align: center;
+.padding {
+  padding: 3rem !important
 }
 
-.cardP .additional {
-  position: absolute;
-  width: 150px;
-  height: 100%;
-  background: linear-gradient(#dE685E, #EE786E);
-  transition: width 0.4s;
-  overflow: hidden;
-  z-index: 2;
+.user-card-full {
+  overflow: hidden
 }
 
-.cardP.green .additional {
-  background: linear-gradient(#92bCa6, #A2CCB6);
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border: none;
+  margin-bottom: 30px
 }
 
-
-.cardP:hover .additional {
-  width: 100%;
-  border-radius: 0 5px 5px 0;
+.m-r-0 {
+  margin-right: 0px
 }
 
-.cardP .additional .user-card {
-  width: 150px;
-  height: 100%;
-  position: relative;
-  float: left;
+.m-l-0 {
+  margin-left: 0px
 }
 
-.cardP .additional .user-card::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 10%;
-  right: -2px;
-  height: 80%;
-  border-left: 2px solid rgba(0,0,0,0.025);
+.user-card-full .user-profile {
+  border-radius: 5px 0 0 5px
 }
 
-
-.cardP .additional .user-card svg {
-  top: 50%;
+.bg-c-lite-green {
+  background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+  background: linear-gradient(to right, #ee5a6f, #f29263)
 }
 
-.cardP .additional .more-info {
-  width: 300px;
-  float: left;
-  position: absolute;
-  left: 150px;
-  height: 100%;
+.user-profile {
+  padding: 20px 0
 }
 
-.cardP .additional .more-info h1 {
-  color: #fff;
-  margin-bottom: 0;
+.card-block {
+  padding: 1.25rem
 }
 
-.cardP.green .additional .more-info h1 {
-  color: #224C36;
+.m-b-25 {
+  margin-bottom: 25px
 }
 
-.cardP .additional .coords {
-  margin: 0 1rem;
-  color: #fff;
-  font-size: 1rem;
+.img-radius {
+  border-radius: 5px
 }
 
-.cardP.green .additional .coords {
-  color: #325C46;
+h6 {
+  font-size: 14px
 }
 
-.cardP .general .coords span + span {
-  float: right;
+.card .card-block p {
+  line-height: 25px
 }
 
-.cardP .additional .stats {
-  font-size: 2rem;
-  display: flex;
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  right: 1rem;
-  top: auto;
-  color: #fff;
+@media only screen and (min-width: 1400px) {
+  p {
+      font-size: 14px
+  }
 }
 
-
-.cardP .additional .stats > div {
-  flex: 1;
-  text-align: center;
+.card-block {
+  padding: 1.25rem
 }
 
-.cardP .additional .stats i {
-  display: block;
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0
 }
 
-.cardP .additional .stats div.title {
-  font-size: 0.75rem;
-  font-weight: bold;
-  text-transform: uppercase;
+.m-b-20 {
+  margin-bottom: 20px
 }
 
-.cardP .additional .stats div.value {
-  font-size: 1.5rem;
-  font-weight: bold;
-  line-height: 1.5rem;
+.p-b-5 {
+  padding-bottom: 5px !important
 }
 
-.cardP .additional .stats div.value.infinity {
-  font-size: 2.5rem;
+.card .card-block p {
+  line-height: 25px
 }
 
-.cardP .general {
-  width: 300px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  box-sizing: border-box;
-  padding: 1rem;
-  padding-top: 0;
+.m-b-10 {
+  margin-bottom: 10px
 }
 
-
-.cardP .general .more {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  font-size: 0.7em;
+.text-muted {
+  color: #919aa3 !important
 }
 
-.img-thumbnail{
-    width:110px;
-    height:110px;
-    margin-top: 50%;
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0
 }
 
+.f-w-600 {
+  font-weight: 600
+}
+
+.m-b-20 {
+  margin-bottom: 20px
+}
+
+.m-t-40 {
+  margin-top: 20px
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important
+}
+
+.m-b-10 {
+  margin-bottom: 10px
+}
+
+.m-t-40 {
+  margin-top: 20px
+}
+
+.user-card-full .social-link li {
+  display: inline-block
+}
+
+.user-card-full .social-link li a {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out
+}
+
+.col-md-3 button{
+  border-radius: 20px;
+  width: 90%;
+  background-color: #ee5a6f;
+}
