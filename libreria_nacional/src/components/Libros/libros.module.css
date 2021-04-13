@@ -1,0 +1,11 @@
+.wd_card
+{
+    width: 18rem;
+    margin-left: 100px;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }

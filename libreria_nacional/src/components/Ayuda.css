@@ -1,0 +1,23 @@
+.modal_footer {
+    display: table;
+    width: 100%;
+}
+
+.text-center{
+    margin: 1em 0;
+    
+}
+
+.text-center button{
+    background-color: #ff675c;
+    width: 30%;
+}
+
+.text-center button:hover{
+    background-color: #ff7961;
+}
+    
+.wrapper_div {
+display: table-cell;
+    vertical-align: middle
+}   
