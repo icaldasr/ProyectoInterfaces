@@ -6,6 +6,12 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+
+.main .btn-rounded{
+    padding: 15px;
+    margin-left: -180%;
+}
+
 .main-n{
     margin-top: -7%;
     margin-left: 15%;

@@ -11,9 +11,9 @@ class signUp extends Component {
     
         </div>
         <div className="main">
-          <div className="back-Home">
-            <Link to='/'><h6>Volver al inicio</h6></Link>
-          </div>
+            <div class="d-flex flex-row align-items-center back">
+                <Link to='/'><button type="button" class="btn btn-rounded "><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i>  Volver al inicio</button></Link>
+            </div> 
           <div className="main-n">
               <div className="login-form">
               <h2>¡Registrate!</h2>
@@ -43,7 +43,7 @@ class signUp extends Component {
                     <div className="form-group">
                       <input type="password" className="form-control" placeholder="Contraseña"/>
                     </div>
-                    <button type="submit" className="btn-btn-black">Registrarse</button>
+                    <Link to='/Perfil'><button type="submit" className="btn-btn-black">Registrarse</button></Link>
                 </form>
               </div>
           </div>

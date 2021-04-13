@@ -1,19 +1,16 @@
 import React, { Component} from 'react';
-import userImg from '../../img/user.png'; //Import User Icon
-//import styles from '../App.module.css';
-//import styles from './App.module.css'
-import './Perfil.css';
+import './Tarjetas.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { Glyphicon } from 'react-bootstrap';
 
-class Perfil extends Component {
+class Tarjetas extends Component {
     render() {
         return(
-        <>
+            <>
             <div class="d-flex flex-row align-items-center back">
-                <Link to='/'><button type="button" class="btn btn-rounded "><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i>  Volver al inicio</button></Link>
+                <Link to='/Perfil'><button type="button" class="btn btn-rounded "><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i>  Volver a mi Perfil</button></Link>
             </div>
-            <div className="homeP">
+            <div className="homeT">
             <div class="page-content page-container" id="page-content">
                 <div class="padding">
                     <div class="row container d-flex justify-content-center">
@@ -29,20 +26,14 @@ class Perfil extends Component {
                                     </div>
                                     <div class="col-sm-8">
                                         <div class="card-block">
-                                            <h6 class="m-b-20 p-b-5 b-b-default f-w-600">Información</h6>
+                                            <h6 class="m-b-20 p-b-5 b-b-default f-w-600">Tus tarjetas</h6>
                                             <div class="row">
-                                                <div class="col-sm-6">
-                                                    <p class="m-b-10 f-w-600">Cédula ciudadana</p>
-                                                    <h6 class="text-muted f-w-400">31645780</h6>
+                                                <div class="col-sm-10">
+                                                    <h6 class="text-muted f-w-400"><i class="far fa-credit-card pr-2" aria-hidden="true"></i>**** **** **** 4567</h6> 
+                                                    <h6 class="text-muted f-w-400">Expiración: 06/22</h6>
+                                                    <h6 class="text-muted f-w-400">Pepita Perez</h6>
                                                 </div>
-                                                <div class="col-sm-6">
-                                                    <p class="m-b-10 f-w-600">Email</p>
-                                                    <h6 class="text-muted f-w-400">rntng@gmail.com</h6>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <p class="m-b-10 f-w-600">Teléfono celular</p>
-                                                    <h6 class="text-muted f-w-400">3124857624</h6>
-                                                </div>
+                                                
                                             </div>
                                             {/*<h6 class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600">Projects</h6>
                                             <div class="row">
@@ -62,19 +53,15 @@ class Perfil extends Component {
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <Link to='/editPerfil'><button type="button" class="btn btn-rounded btn-blue-grey"><i class="fas fa-cogs pr-2" aria-hidden="true"></i>Editar mi cuenta</button></Link>
-                            <Link to='/Favoritos'><button type="button" class="btn btn-rounded btn-blue-grey"><i class="fas fa-heart"></i> Mis favoritos</button></Link>
-                            <Link to='/Tarjetas'><button type="button" class="btn btn-rounded btn-blue-grey"><i class="far fa-credit-card pr-2" aria-hidden="true"></i>Ajustes de pago</button></Link>
-                            <Link to='/Ayuda'><button type="button" class="btn btn-rounded btn-blue-grey"><i class="fas fa-question pr-2" aria-hidden="true"></i>Ayuda</button></Link>
-                            <Link to='/'><button type="button" class="btn btn-rounded btn-blue-grey"><i class="fas fa-power-off pr-2" aria-hidden="true"></i>Cerrar sesión</button></Link>
+                            <Link to='/newCard'><button type="button" class="btn btn-rounded btn-blue-grey"><i class="far fa-credit-card pr-2" aria-hidden="true"></i>Añadir tarjeta</button></Link>
                         </div>
                     </div>
                 </div>
             </div>
             </div>
-        </>
+            </>
         );
     }
 }
 
-export default Perfil;
+export default Tarjetas;

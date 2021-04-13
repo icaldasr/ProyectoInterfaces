@@ -28,8 +28,7 @@
     cursor: pointer
 }
 
-.col-md-3 button{
+.text-right button{
     border-radius: 20px;
-    width: 90%;
-    background-color: #ee5a6f;
   }
+

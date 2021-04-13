@@ -1,0 +1,49 @@
+.rounded {
+    border-radius: 1rem
+}
+
+.back .btn-blue-grey{
+    background-color: transparent;
+    color: black;
+    box-shadow: none;
+    border-style: none;
+}
+.py-5{
+    align-content: center;
+    
+    margin-top: -50px;
+  }
+
+.nav-item .active{
+    color: gray;
+}
+
+.card-footer .btn-blue-grey{
+    width: 98%;
+    border-radius: 15px;
+}
+
+.text-center h1{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.nav-pills .nav-link {
+    color: #555
+}
+
+.nav-pills .nav-link.active {
+    color: white;
+    background-color: red;
+}
+
+input[type="radio"] {
+    margin-right: 5px
+}
+
+.bold {
+    font-weight: bold
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: red;
+}

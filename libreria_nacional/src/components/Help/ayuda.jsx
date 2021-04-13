@@ -1,15 +1,15 @@
 import React, { Component} from 'react';
-
-//import styles from './App.module.css'
 import { Glyphicon } from 'react-bootstrap';
-import Styles from '../components/Ayuda.css';
+import './Ayuda.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class Ayuda extends Component {
     render() {
         return(
             <>
+            
             <div>
+                
                 <nav className="navbar navbar-expand-md navbar-light">
 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav11"
@@ -35,30 +35,19 @@ class Ayuda extends Component {
                     </div>
                 </nav>
             </div>
+            <div class="d-flex flex-row align-items-center back">
+                <Link to='/'><button type="button" class="btn btn-rounded "><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i>  Volver al inicio</button></Link>
+            </div>
 
             <div className="text-center">
                 <img src="https://www.iconpacks.net/icons/2/free-customer-support-icon-1714-thumb.png" className="rounded" alt="Ayuda" width="200" height="200"/>
             </div>
 
             <div className="text-center">
-                    <button type="button" variant="primary" className="boton">
-                        <span aria-hidden="true"></span> Preguntas frecuentes
-                    </button>
+            <Link to='/preguntas'><button type="button" class="btn btn-rounded btn-blue-grey"><i class="far fa-question-circle"></i> Preguntas frecuentes</button></Link>              
                 </div>
                 <div className="text-center">
-                    <button type="button" variant="primary" className="boton">
-                        <span aria-hidden="true"></span> Preguntas sobre pago
-                    </button>
-                    </div>
-                <div className="text-center">
-                    <button type="button" variant="primary" className="boton">
-                        <span aria-hidden="true"></span> Preguntas sobre envío
-                    </button>
-                    </div>
-                <div className="text-center">
-                    <button type="button" variant="primary" className="boton">
-                        <span aria-hidden="true"></span> Contactenos
-                    </button>                    
+                    <Link to='/Contacto'><button type="button" class="btn btn-rounded btn-blue-grey"><i class="fas fa-sms"></i> Contáctanos</button></Link>              
                 </div>
 
             </>

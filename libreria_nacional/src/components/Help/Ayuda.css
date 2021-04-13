@@ -5,6 +5,7 @@
 
 .text-center{
     margin: 1em 0;
+    margin-top: 0%;
 }
 
 .text-center .boton{
@@ -16,11 +17,16 @@
     padding: 10px 1px;
 }
 
-.text-center .boton:hover{
-    background-color: #ff7961;
-}
     
 .wrapper_div {
 display: table-cell;
     vertical-align: middle
 }   
+
+
+.text-center .btn-blue-grey{
+    background-color: teal;
+    border-radius: 20px;
+    width: 30%;
+
+}

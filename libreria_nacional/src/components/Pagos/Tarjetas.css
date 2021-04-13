@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
+html, body {
+    font-family: Abel, Arial, Verdana, sans-serif;
+}
 
-.homeP{
-  align-content: center;
+body {
+  background-color: #f9f9fa
+}
+
+.homeT{
   margin-left: 15%;
   margin-top: 3%;
 }
@@ -36,8 +42,8 @@
 }
 
 .bg-c-lite-green {
-  background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#F82C38));
-  background: linear-gradient(to right, #F82C38, #f29263)
+  background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+  background: linear-gradient(to right, #ee5a6f, #f29263)
 }
 
 .user-profile {
@@ -142,3 +148,4 @@ h6 {
   width: 90%;
   background-color: #ee5a6f;
 }
+  

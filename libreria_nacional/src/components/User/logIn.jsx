@@ -12,9 +12,9 @@ class logIn extends Component {
     
         </div>
         <div className="main">
-            <div className="back-Home">
-            <Link to='/'><h6>Volver al inicio</h6></Link>
-            </div>                    
+            <div class="d-flex flex-row align-items-center back">
+                <Link to='/'><button type="button" class="btn btn-rounded "><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i>  Volver al inicio</button></Link>
+            </div>                  
           <div className="main-nn">
             
               <div className="login-form">
