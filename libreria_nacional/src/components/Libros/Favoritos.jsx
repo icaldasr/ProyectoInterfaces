@@ -6,11 +6,10 @@ import  Button  from 'react-bootstrap/Button'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class Favoritos extends Component {
-  render() 
+  render()
   {
     return(
         <>
-        
         <div>
             <nav className="navbar navbar-expand-md navbar-light" aria-label="breadcrumb">
 
