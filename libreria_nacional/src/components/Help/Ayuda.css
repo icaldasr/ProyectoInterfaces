@@ -24,9 +24,17 @@ display: table-cell;
 }   
 
 
-.text-center .btn-blue-grey{
-    background-color: teal;
+.text-center .btn-rounded{
+    background-color: #17a2b8;
     border-radius: 20px;
     width: 30%;
+    color: white;
+}
 
+.boton{
+    box-shadow: none !important;
+}
+
+.nav{
+    height: 20px;
 }

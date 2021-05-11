@@ -26,46 +26,48 @@ class Favoritos extends Component {
                     </ol>
                     </nav>
 
-                <div className="collapse navbar-collapse" id="basicExampleNav11">
-                    <ul className="navbar-nav ml-auto">
-                        <li className="nav-item pl-2 mb-2 mb-md-0">
-                            <Link to ="/Compras">
-                                <button type="submit" className="botonn" > 
-                                    <img src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-452-1163339.png" alt="Carrito" width="25" height="25"/> 
-                                </button>
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
+                    <div className="collapse navbar-collapse" id="basicExampleNav11">
+                        <ul className="navbar-nav ml-auto">
+                            <li className="nav-item pl-2 mb-2 mb-md-0">
+                                <Link to='./Compras'>
+                                    <button type="submit"className="btn boton btn-md btn-rounded btn-navbar waves-effect waves-light">
+                                        <img src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-452-1163339.png" className="rounded" alt="Carrito" width="25" height="25"/>
+                                    </button>
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
             </nav>
         </div>
         <div class="d-flex flex-row align-items-center back">
                 <Link to='/Perfil'><button type="button" class="btn btn-rounded "><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i>  Volver a mi Perfil</button></Link>
             </div>
-
+        <br></br>
         <div>
         <section id="gallery">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="https://static.megustaleer.com/images/libros_650_x/EL389443.jpg" alt="" class="card-img-top" />
+                        <img src="https://static.megustaleer.com/images/libros_650_x/EL389443.jpg" alt="" class="card-img-top"  width="100" height="500"/>
                             <div class="card-body">
                                 <h5 class="card-title">Mr. Mercedes (Stephen King)</h5>
                                 <p class="card-text">Mr Mercedes es la historia de una guerra entre el Bien y el Mal. Un retrato inolvidable de la mente de un asesino obsesionado y demente.</p>
+                                <br></br>
                                 <a href="" class="btn btn-outline-success btn-sm">Ver detalles</a>
+
                                 <a href="" class="btn btn-outline-danger btn-sm">Agregar al carrito<i class="far fa-heart"></i></a>
                             </div>
+
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="https://lh3.googleusercontent.com/proxy/U7m5-GXsYcWU3fhwvAVUyVSk5PRnLGBGOI07MaA5uXZWPh90mYzTXqaRBO_CBuwt5xhw7efSmvtoY0msurFybEGNLjb99l_aqLf533GiyseFBJpvibT7W6TLD_IHMlZ3b-xpFGNBQMrkdItGaeqNX9UQnXnMqw" alt="" class="card-img-top" />
+                        <img src="http://3.bp.blogspot.com/-nF45jJDKVp4/UGB7l_IablI/AAAAAAAAESQ/DcRXVJ4CNNw/s400/Memorias-de-un-amigo-imaginario.jpg" alt="" class="card-img-top"  width="100" height="500" />
                             <div class="card-body">
                                 <h5 class="card-title">Memorias de un amigo imaginario (Matthew Dicks)</h5>
                                     <p class="card-text">La novela que tienes en tus manos es especial, como Max.
-                                        La novela que tienes en tus manos es única, como Max.
-                                        La novela que tienes en tus manos es valiente, como Max.</p>
+                                        La novela que tienes en tus manos es única, como Max.</p>
                                         <a href="" class="btn btn-outline-success btn-sm">Ver detalles</a>
                                         <a href="" class="btn btn-outline-danger btn-sm">Agregar al carrito<i class="far fa-heart"></i></a>
                             </div>
@@ -73,10 +75,13 @@ class Favoritos extends Component {
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/91pq7L8W0GL.jpg" alt="" class="card-img-top" />
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/91pq7L8W0GL.jpg" alt="" class="card-img-top"  width="100" height="500"/>
                         <div class="card-body">
                             <h5 class="card-title">Escrito en el agua (Paula Hawkins)</h5>
-                            <p class="card-text">No te fíes nunca de una superficie en calma, no sabes lo que puede haber debajo.</p>
+                            <p class="card-text">Nel Abbott ha fallecido. Se arrojó al río. Unos días antes había llamado a su hermana Jules, 
+                                pero esta última no cogió el teléfono. </p>
+                            <br></br>
+                            
                             <a href="" class="btn btn-outline-success btn-sm">Ver detalles</a>
                             <a href="" class="btn btn-outline-danger btn-sm">Agregar al carrito<i class="far fa-heart"></i></a>
                         </div>

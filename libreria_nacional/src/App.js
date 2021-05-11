@@ -21,6 +21,7 @@ import Message from './components/Message/message';
 import Contacto from './components/Help/Contacto';
 import PreguntasF from './components/Help/PreguntasF';
 import Fav from './components/Libros/Favoritos';
+import Detalles from './components/Libros/Detalles';
 
 class App extends Component 
 {
@@ -47,6 +48,7 @@ class App extends Component
           <Route exact path='/Contacto' component = { Contacto }/>
           <Route exact path='/preguntas' component = { PreguntasF }/>
           <Route exact path='/Favoritos' component = { Fav }/>
+          <Route exact path='/Detalles' component = { Detalles }/>
         </Switch>
       </div>
 

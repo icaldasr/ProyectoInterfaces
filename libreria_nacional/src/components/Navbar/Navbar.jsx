@@ -30,7 +30,7 @@ class Navbar extends Component
             </ul>
           </div>
           <div className="mx-auto order-0">
-            <Link to='/' className="navbar-brand mx-auto">Libreria Nacional </Link>
+            <Link to='/' className="navbar-brand mx-auto"><h2>Libreria Nacional </h2></Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
               <span className="navbar-toggler-icon"></span>
           </button>

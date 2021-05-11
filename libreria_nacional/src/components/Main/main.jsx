@@ -27,20 +27,17 @@ class Main extends Component
                         aria-controls="basicExampleNav11" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-
-
-
                 </nav>
-
-
-
             </div>
         <div>
             <div class="container">
+            <br></br>
                 <div class="text-center">
                     <h1>Novedades</h1>
                 </div>
+                
                 <div class="container">
+                    
                     <div class="card-columns">
                         <div class="card">
                             <a href="#">

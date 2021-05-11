@@ -7,26 +7,14 @@ class Ayuda extends Component {
     render() {
         return(
             <>
-            
             <div>
-                
                 <nav className="navbar navbar-expand-md navbar-light">
-
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav11"
-                        aria-controls="basicExampleNav11" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-
-                    <ol className="breadcrumb">
-                        <li className="breadcrumb-item">Inicio</li>
-                        <li className="breadcrumb-item active" aria-current="page">Ayuda</li>
-                    </ol>
 
                     <div className="collapse navbar-collapse" id="basicExampleNav11">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item pl-2 mb-2 mb-md-0">
                                 <Link to='./Compras'>
-                                    <button type="submit"className="btn btn-outline-danger btn-md btn-rounded btn-navbar waves-effect waves-light">
+                                    <button type="submit"className="btn boton btn-md btn-rounded btn-navbar waves-effect waves-light">
                                         <img src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-452-1163339.png" className="rounded" alt="Carrito" width="25" height="25"/>
                                     </button>
                                 </Link>
@@ -44,12 +32,11 @@ class Ayuda extends Component {
             </div>
 
             <div className="text-center">
-            <Link to='/preguntas'><button type="button" class="btn btn-rounded btn-blue-grey"><i class="far fa-question-circle"></i> Preguntas frecuentes</button></Link>              
+            <Link to='/preguntas'><button type="button" class="btn btn-rounded"><i class="far fa-question-circle"></i> Preguntas frecuentes</button></Link>              
                 </div>
                 <div className="text-center">
-                    <Link to='/Contacto'><button type="button" class="btn btn-rounded btn-blue-grey"><i class="fas fa-sms"></i> Contáctanos</button></Link>              
+                    <Link to='/Contacto'><button type="button" class="btn btn-rounded"><i class="fas fa-sms"></i> Contáctanos</button></Link>              
                 </div>
-
             </>
         );
     }
